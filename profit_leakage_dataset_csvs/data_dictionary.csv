@@ -1,0 +1,8 @@
+file_name,purpose,important_columns
+customers.csv,Customer dimension with segment and acquisition channel,"customer_id, customer_segment, acquisition_channel"
+products.csv,Product dimension with category and product attributes,"product_id, product_category_name, estimated_cost_ratio"
+orders.csv,"Order header with status, timestamps, channel, and discount","order_id, customer_id, order_status, order_discount_amount, order_channel"
+order_items.csv,Order line items with revenue and freight inputs,"order_id, order_item_id, product_id, price, freight_value"
+order_payments.csv,Order-level payment records,"order_id, payment_type, payment_installments, payment_value"
+marketing_qualified_leads.csv,Lead-generation records by origin channel,"mql_id, first_contact_date, origin"
+closed_deals.csv,Directional conversion records for CAC modeling,"mql_id, won_date, business_segment"

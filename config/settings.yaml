@@ -1,0 +1,64 @@
+# =============================================================
+# Profit Leakage & True Unit Economics Analyzer
+# Central Configuration File
+# =============================================================
+# Edit this file before running any pipeline script.
+# Never hard-code these values in SQL or Python files.
+
+# ── Database Connection ────────────────────────────────────────
+database:
+  host: localhost
+  port: 5432
+  name: profit_leakage
+  user: postgres
+  password: postgres          # Change to your local password
+
+# ── Data Paths ────────────────────────────────────────────────
+# Point raw_data_dir to the folder containing your CSV files.
+# Use forward slashes or double backslashes on Windows.
+paths:
+  raw_data_dir: profit_leakage_dataset_csvs   # relative to project root
+  sql_dir: sql
+
+# ── CSV File Mapping ──────────────────────────────────────────
+# Maps raw schema table names to source CSV filenames.
+csv_files:
+  orders:                    orders.csv
+  order_items:               order_items.csv
+  order_payments:            order_payments.csv
+  customers:                 customers.csv
+  products:                  products.csv
+  marketing_qualified_leads: marketing_qualified_leads.csv
+  closed_deals:              closed_deals.csv
+
+# ── Payment Fee Rates (by payment type) ───────────────────────
+# Applied in staging.stg_order_payments to compute payment_fee.
+payment_fee_rates:
+  credit_card: 0.025          # 2.5%
+  debit_card:  0.015          # 1.5%
+  upi:         0.005          # 0.5%
+  voucher:     0.000          # 0% (internal voucher, no gateway fee)
+  default:     0.020          # 2.0% fallback for unknown types
+
+# ── Return Cost Parameters ────────────────────────────────────
+# Used in analytics.fact_order_items to compute return_cost.
+return_cost:
+  reverse_logistics_multiplier: 1.0  # same as forward freight
+  restocking_fee_rate:          0.10  # 10% of item COGS
+
+# ── Estimated Marketing Spend per Channel (Monthly, INR) ──────
+# Used to compute CAC in staging.stg_channel_summary.
+# Update with actual spend from your marketing reports.
+marketing_spend:
+  marketplace:      45000
+  organic_search:   0           # No paid spend for organic
+  paid_search:      60000
+  social_ads:       35000
+  email:            8000
+  referral:         5000
+
+# ── Order Status Filter ───────────────────────────────────────
+# Only orders with these statuses enter the staging layer.
+staging_order_statuses:
+  - delivered
+  - returned

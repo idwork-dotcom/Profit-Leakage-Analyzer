@@ -1,0 +1,181 @@
+customer_id,customer_unique_id,customer_city,customer_state,customer_segment,acquisition_channel
+CUST_0001,U_100001,Salvador,BA,Mass,referral
+CUST_0002,U_100002,Rio de Janeiro,RJ,Mass,referral
+CUST_0003,U_100003,Salvador,BA,Mid Value,social_ads
+CUST_0004,U_100004,Porto Alegre,RS,Mass,organic_search
+CUST_0005,U_100005,Rio de Janeiro,RJ,Mass,email
+CUST_0006,U_100006,Porto Alegre,RS,Mass,email
+CUST_0007,U_100007,Porto Alegre,RS,Mass,social_ads
+CUST_0008,U_100008,Belo Horizonte,MG,High Value,organic_search
+CUST_0009,U_100009,Rio de Janeiro,RJ,Mid Value,paid_search
+CUST_0010,U_100010,Rio de Janeiro,RJ,Mass,referral
+CUST_0011,U_100011,Sao Paulo,SP,Mass,organic_search
+CUST_0012,U_100012,Belo Horizonte,MG,Mid Value,marketplace
+CUST_0013,U_100013,Salvador,BA,Mass,organic_search
+CUST_0014,U_100014,Curitiba,PR,Mass,paid_search
+CUST_0015,U_100015,Salvador,BA,Mid Value,marketplace
+CUST_0016,U_100016,Porto Alegre,RS,Mass,organic_search
+CUST_0017,U_100017,Salvador,BA,Mass,paid_search
+CUST_0018,U_100018,Sao Paulo,SP,High Value,marketplace
+CUST_0019,U_100019,Curitiba,PR,Mass,email
+CUST_0020,U_100020,Belo Horizonte,MG,Mass,paid_search
+CUST_0021,U_100021,Salvador,BA,Mass,marketplace
+CUST_0022,U_100022,Salvador,BA,Mass,email
+CUST_0023,U_100023,Porto Alegre,RS,Mid Value,organic_search
+CUST_0024,U_100024,Curitiba,PR,Mass,marketplace
+CUST_0025,U_100025,Salvador,BA,Mid Value,email
+CUST_0026,U_100026,Sao Paulo,SP,Mass,organic_search
+CUST_0027,U_100027,Belo Horizonte,MG,Mass,organic_search
+CUST_0028,U_100028,Porto Alegre,RS,High Value,paid_search
+CUST_0029,U_100029,Salvador,BA,Mass,marketplace
+CUST_0030,U_100030,Salvador,BA,Mass,paid_search
+CUST_0031,U_100031,Rio de Janeiro,RJ,Mid Value,social_ads
+CUST_0032,U_100032,Salvador,BA,Mid Value,marketplace
+CUST_0033,U_100033,Curitiba,PR,Mass,marketplace
+CUST_0034,U_100034,Rio de Janeiro,RJ,Mid Value,organic_search
+CUST_0035,U_100035,Sao Paulo,SP,High Value,organic_search
+CUST_0036,U_100036,Rio de Janeiro,RJ,Mid Value,social_ads
+CUST_0037,U_100037,Sao Paulo,SP,Mass,social_ads
+CUST_0038,U_100038,Curitiba,PR,Mid Value,marketplace
+CUST_0039,U_100039,Sao Paulo,SP,Mid Value,organic_search
+CUST_0040,U_100040,Porto Alegre,RS,Mid Value,referral
+CUST_0041,U_100041,Belo Horizonte,MG,Mass,social_ads
+CUST_0042,U_100042,Curitiba,PR,Mass,referral
+CUST_0043,U_100043,Salvador,BA,Mass,social_ads
+CUST_0044,U_100044,Rio de Janeiro,RJ,Mid Value,organic_search
+CUST_0045,U_100045,Salvador,BA,Mass,email
+CUST_0046,U_100046,Porto Alegre,RS,Mass,paid_search
+CUST_0047,U_100047,Rio de Janeiro,RJ,Mid Value,referral
+CUST_0048,U_100048,Porto Alegre,RS,High Value,social_ads
+CUST_0049,U_100049,Curitiba,PR,Mass,marketplace
+CUST_0050,U_100050,Belo Horizonte,MG,Mass,paid_search
+CUST_0051,U_100051,Porto Alegre,RS,High Value,organic_search
+CUST_0052,U_100052,Curitiba,PR,High Value,marketplace
+CUST_0053,U_100053,Porto Alegre,RS,Mid Value,organic_search
+CUST_0054,U_100054,Curitiba,PR,High Value,organic_search
+CUST_0055,U_100055,Porto Alegre,RS,High Value,social_ads
+CUST_0056,U_100056,Rio de Janeiro,RJ,High Value,referral
+CUST_0057,U_100057,Salvador,BA,Mass,paid_search
+CUST_0058,U_100058,Salvador,BA,Mid Value,social_ads
+CUST_0059,U_100059,Porto Alegre,RS,Mass,paid_search
+CUST_0060,U_100060,Sao Paulo,SP,Mass,social_ads
+CUST_0061,U_100061,Rio de Janeiro,RJ,Mid Value,organic_search
+CUST_0062,U_100062,Salvador,BA,Mid Value,paid_search
+CUST_0063,U_100063,Sao Paulo,SP,High Value,organic_search
+CUST_0064,U_100064,Rio de Janeiro,RJ,Mass,social_ads
+CUST_0065,U_100065,Porto Alegre,RS,Mass,marketplace
+CUST_0066,U_100066,Porto Alegre,RS,Mid Value,paid_search
+CUST_0067,U_100067,Curitiba,PR,High Value,organic_search
+CUST_0068,U_100068,Sao Paulo,SP,Mid Value,paid_search
+CUST_0069,U_100069,Curitiba,PR,Mass,referral
+CUST_0070,U_100070,Salvador,BA,Mid Value,email
+CUST_0071,U_100071,Sao Paulo,SP,Mass,paid_search
+CUST_0072,U_100072,Sao Paulo,SP,Mass,organic_search
+CUST_0073,U_100073,Curitiba,PR,Mass,organic_search
+CUST_0074,U_100074,Curitiba,PR,Mass,marketplace
+CUST_0075,U_100075,Curitiba,PR,High Value,marketplace
+CUST_0076,U_100076,Sao Paulo,SP,Mass,marketplace
+CUST_0077,U_100077,Sao Paulo,SP,High Value,marketplace
+CUST_0078,U_100078,Rio de Janeiro,RJ,Mass,social_ads
+CUST_0079,U_100079,Rio de Janeiro,RJ,High Value,marketplace
+CUST_0080,U_100080,Rio de Janeiro,RJ,Mass,marketplace
+CUST_0081,U_100081,Belo Horizonte,MG,High Value,referral
+CUST_0082,U_100082,Belo Horizonte,MG,Mass,marketplace
+CUST_0083,U_100083,Porto Alegre,RS,Mid Value,social_ads
+CUST_0084,U_100084,Rio de Janeiro,RJ,Mass,marketplace
+CUST_0085,U_100085,Porto Alegre,RS,Mid Value,organic_search
+CUST_0086,U_100086,Belo Horizonte,MG,Mass,social_ads
+CUST_0087,U_100087,Porto Alegre,RS,High Value,social_ads
+CUST_0088,U_100088,Sao Paulo,SP,High Value,organic_search
+CUST_0089,U_100089,Rio de Janeiro,RJ,Mass,organic_search
+CUST_0090,U_100090,Rio de Janeiro,RJ,Mass,marketplace
+CUST_0091,U_100091,Porto Alegre,RS,Mass,social_ads
+CUST_0092,U_100092,Porto Alegre,RS,Mass,email
+CUST_0093,U_100093,Porto Alegre,RS,Mid Value,marketplace
+CUST_0094,U_100094,Rio de Janeiro,RJ,Mid Value,paid_search
+CUST_0095,U_100095,Belo Horizonte,MG,Mass,email
+CUST_0096,U_100096,Belo Horizonte,MG,Mass,marketplace
+CUST_0097,U_100097,Sao Paulo,SP,Mass,email
+CUST_0098,U_100098,Porto Alegre,RS,High Value,organic_search
+CUST_0099,U_100099,Rio de Janeiro,RJ,Mid Value,organic_search
+CUST_0100,U_100100,Belo Horizonte,MG,High Value,marketplace
+CUST_0101,U_100101,Belo Horizonte,MG,Mass,social_ads
+CUST_0102,U_100102,Porto Alegre,RS,Mid Value,email
+CUST_0103,U_100103,Salvador,BA,Mid Value,email
+CUST_0104,U_100104,Porto Alegre,RS,Mass,email
+CUST_0105,U_100105,Rio de Janeiro,RJ,Mass,marketplace
+CUST_0106,U_100106,Salvador,BA,Mid Value,paid_search
+CUST_0107,U_100107,Porto Alegre,RS,Mass,paid_search
+CUST_0108,U_100108,Salvador,BA,Mid Value,paid_search
+CUST_0109,U_100109,Curitiba,PR,Mass,marketplace
+CUST_0110,U_100110,Sao Paulo,SP,Mass,social_ads
+CUST_0111,U_100111,Belo Horizonte,MG,Mass,paid_search
+CUST_0112,U_100112,Rio de Janeiro,RJ,Mid Value,paid_search
+CUST_0113,U_100113,Salvador,BA,Mass,email
+CUST_0114,U_100114,Porto Alegre,RS,Mass,organic_search
+CUST_0115,U_100115,Salvador,BA,High Value,social_ads
+CUST_0116,U_100116,Belo Horizonte,MG,Mid Value,organic_search
+CUST_0117,U_100117,Rio de Janeiro,RJ,Mass,paid_search
+CUST_0118,U_100118,Sao Paulo,SP,High Value,organic_search
+CUST_0119,U_100119,Rio de Janeiro,RJ,Mid Value,paid_search
+CUST_0120,U_100120,Porto Alegre,RS,High Value,paid_search
+CUST_0121,U_100121,Porto Alegre,RS,Mid Value,marketplace
+CUST_0122,U_100122,Rio de Janeiro,RJ,High Value,marketplace
+CUST_0123,U_100123,Rio de Janeiro,RJ,High Value,organic_search
+CUST_0124,U_100124,Salvador,BA,High Value,referral
+CUST_0125,U_100125,Curitiba,PR,High Value,marketplace
+CUST_0126,U_100126,Rio de Janeiro,RJ,Mass,referral
+CUST_0127,U_100127,Sao Paulo,SP,Mass,organic_search
+CUST_0128,U_100128,Curitiba,PR,Mass,marketplace
+CUST_0129,U_100129,Curitiba,PR,Mass,marketplace
+CUST_0130,U_100130,Rio de Janeiro,RJ,Mass,email
+CUST_0131,U_100131,Curitiba,PR,Mass,marketplace
+CUST_0132,U_100132,Belo Horizonte,MG,Mass,social_ads
+CUST_0133,U_100133,Salvador,BA,High Value,social_ads
+CUST_0134,U_100134,Sao Paulo,SP,Mass,marketplace
+CUST_0135,U_100135,Rio de Janeiro,RJ,Mid Value,marketplace
+CUST_0136,U_100136,Sao Paulo,SP,Mass,social_ads
+CUST_0137,U_100137,Salvador,BA,Mid Value,social_ads
+CUST_0138,U_100138,Porto Alegre,RS,Mass,marketplace
+CUST_0139,U_100139,Rio de Janeiro,RJ,Mass,email
+CUST_0140,U_100140,Sao Paulo,SP,Mid Value,marketplace
+CUST_0141,U_100141,Salvador,BA,Mid Value,referral
+CUST_0142,U_100142,Salvador,BA,Mass,social_ads
+CUST_0143,U_100143,Salvador,BA,High Value,email
+CUST_0144,U_100144,Salvador,BA,High Value,email
+CUST_0145,U_100145,Belo Horizonte,MG,Mid Value,email
+CUST_0146,U_100146,Belo Horizonte,MG,Mass,paid_search
+CUST_0147,U_100147,Rio de Janeiro,RJ,Mass,email
+CUST_0148,U_100148,Curitiba,PR,Mid Value,marketplace
+CUST_0149,U_100149,Porto Alegre,RS,Mid Value,paid_search
+CUST_0150,U_100150,Sao Paulo,SP,Mass,organic_search
+CUST_0151,U_100151,Porto Alegre,RS,Mid Value,paid_search
+CUST_0152,U_100152,Curitiba,PR,Mass,organic_search
+CUST_0153,U_100153,Curitiba,PR,Mid Value,marketplace
+CUST_0154,U_100154,Salvador,BA,Mass,organic_search
+CUST_0155,U_100155,Porto Alegre,RS,Mid Value,email
+CUST_0156,U_100156,Sao Paulo,SP,High Value,referral
+CUST_0157,U_100157,Salvador,BA,Mass,marketplace
+CUST_0158,U_100158,Rio de Janeiro,RJ,Mass,paid_search
+CUST_0159,U_100159,Curitiba,PR,Mid Value,referral
+CUST_0160,U_100160,Curitiba,PR,Mass,email
+CUST_0161,U_100161,Rio de Janeiro,RJ,Mid Value,paid_search
+CUST_0162,U_100162,Curitiba,PR,Mass,email
+CUST_0163,U_100163,Sao Paulo,SP,High Value,marketplace
+CUST_0164,U_100164,Sao Paulo,SP,Mid Value,organic_search
+CUST_0165,U_100165,Salvador,BA,Mid Value,organic_search
+CUST_0166,U_100166,Rio de Janeiro,RJ,High Value,organic_search
+CUST_0167,U_100167,Rio de Janeiro,RJ,High Value,email
+CUST_0168,U_100168,Porto Alegre,RS,Mid Value,marketplace
+CUST_0169,U_100169,Curitiba,PR,Mid Value,email
+CUST_0170,U_100170,Porto Alegre,RS,Mass,marketplace
+CUST_0171,U_100171,Curitiba,PR,High Value,referral
+CUST_0172,U_100172,Curitiba,PR,Mass,referral
+CUST_0173,U_100173,Salvador,BA,Mass,referral
+CUST_0174,U_100174,Curitiba,PR,Mid Value,paid_search
+CUST_0175,U_100175,Sao Paulo,SP,Mid Value,paid_search
+CUST_0176,U_100176,Belo Horizonte,MG,Mass,social_ads
+CUST_0177,U_100177,Rio de Janeiro,RJ,Mass,paid_search
+CUST_0178,U_100178,Rio de Janeiro,RJ,Mid Value,organic_search
+CUST_0179,U_100179,Curitiba,PR,Mass,social_ads
+CUST_0180,U_100180,Sao Paulo,SP,Mass,social_ads

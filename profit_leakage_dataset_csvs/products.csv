@@ -1,0 +1,13 @@
+product_id,product_category_name,product_name_lenght,product_description_lenght,product_photos_qty,product_weight_g,product_length_cm,product_height_cm,product_width_cm,list_price_min,list_price_max,estimated_cost_ratio
+P001,Accessories,42,419,6,200,10,22,20,299,799,0.35
+P002,Accessories,33,123,3,250,19,16,21,399,999,0.38
+P003,Home Decor,35,502,6,1200,27,11,23,699,1999,0.42
+P004,Home Decor,25,259,4,1500,25,4,20,899,2499,0.44
+P005,Beauty,28,462,6,150,35,16,13,249,699,0.32
+P006,Beauty,32,590,2,180,29,21,8,349,899,0.34
+P007,Fashion,30,423,5,450,31,4,10,799,1999,0.48
+P008,Fashion,38,339,2,600,37,18,13,999,2499,0.5
+P009,Electronics,19,253,4,900,20,10,22,1999,6999,0.68
+P010,Electronics,28,292,4,1400,18,17,16,2999,9999,0.72
+P011,Kitchen,20,360,1,700,33,21,9,499,1499,0.46
+P012,Kitchen,29,234,6,1000,12,5,8,799,1999,0.49
