@@ -1,8 +1,5 @@
 # Profit Leakage & True Unit Economics Analyzer
 
-![Project Status](https://img.shields.io/badge/Status-Complete-success)
-![Data Architecture](https://img.shields.io/badge/Architecture-Medallion_Layering-blue)
-![Tech Stack](https://img.shields.io/badge/Tech-Python_|_PostgreSQL_|_Streamlit-indigo)
 
 ## 📌 Project Overview
 This project is an end-to-end analytics platform designed to solve a critical business problem for e-commerce and retail operations: **Profit Leakage**. 
