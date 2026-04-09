@@ -81,13 +81,14 @@ with c1:
     fig.update_layout(
         **chart_layout(height=360, title="CAC vs First-Order Net Profit"),
         barmode="group",
-        yaxis=dict(title="CAC (₹)", tickprefix="₹", tickformat=",",
-                   gridcolor="rgba(148,163,184,0.08)"),
         yaxis2=dict(title="Net Profit (₹)", overlaying="y", side="right",
                     tickprefix="₹", tickformat=",", gridcolor="rgba(0,0,0,0)",
                     tickfont=dict(color=C["positive"])),
     )
-    fig.update_layout(legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1))
+    fig.update_layout(
+        yaxis=dict(title="CAC (₹)", tickprefix="₹", tickformat=",", gridcolor="rgba(148,163,184,0.08)"),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+    )
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 with c2:
@@ -125,7 +126,7 @@ with c3:
         fig3 = go.Figure()
         funnel_stages = [
             ("MQL Leads",   "total_mql_leads",  "rgba(99,102,241,0.4)"),
-            ("Deals Closed","total_deals",       "rgba(245,158,11,0.6)"),
+            ("Deals Closed","total_deals_closed", "rgba(245,158,11,0.6)"),
             ("New Customers","new_customers",    "rgba(16,185,129,0.6)"),
         ]
         x_pos = list(range(len(funnel_df)))

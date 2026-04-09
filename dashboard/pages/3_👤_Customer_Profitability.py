@@ -83,8 +83,8 @@ with c1:
     fig.update_layout(
         **chart_layout(height=360, title="Top 12 — Most Profitable"),
         xaxis_tickprefix="₹", xaxis_tickformat=",",
-        yaxis=dict(tickfont=dict(size=11, color=C["muted"])),
     )
+    fig.update_layout(yaxis=dict(tickfont=dict(size=11, color=C["muted"])))
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 with c2:
@@ -102,8 +102,8 @@ with c2:
     fig2.update_layout(
         **chart_layout(height=360, title="Bottom 12 — Least Profitable"),
         xaxis_tickprefix="₹", xaxis_tickformat=",",
-        yaxis=dict(tickfont=dict(size=11, color=C["muted"])),
     )
+    fig2.update_layout(yaxis=dict(tickfont=dict(size=11, color=C["muted"])))
     st.plotly_chart(fig2, use_container_width=True, config={"displayModeBar": False})
 
 # ── Row 2: Revenue vs Net Profit Scatter + Segment Donut ──────
